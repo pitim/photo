@@ -1,0 +1,71 @@
+raspistill -n -t 300 -w 768 -h 1022 -o delim1.jpg
+
+convert delim1.jpg -crop '384x511+0+0' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+convert delim1.jpg -crop '384x511+0+511' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+convert delim1.jpg -crop '384x511+384+0' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+convert delim1.jpg -crop '384x511+384+511' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+
+
+
+
+
+raspistill -n -t 300 -w 1272 -h 1533 -o delim1.jpg
+
+convert delim1.jpg -crop '384x511+0+0' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+convert delim1.jpg -crop '384x511+0+511' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+convert delim1.jpg -crop '384x511+0+1022' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+
+
+convert delim1.jpg -crop '384x511+444+0' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+convert delim1.jpg -crop '384x511+444+511' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+convert delim1.jpg -crop '384x511+444+1022' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+
+
+convert delim1.jpg -crop '384x511+888+0' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+convert delim1.jpg -crop '384x511+888+511' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+convert delim1.jpg -crop '384x511+888+1022' delim2.jpg 
+convert delim2.jpg -dither FloydSteinberg -remap pattern:gray10 delim3.jpg
+lp delim3.jpg
+
+
+
+
+
+
+
